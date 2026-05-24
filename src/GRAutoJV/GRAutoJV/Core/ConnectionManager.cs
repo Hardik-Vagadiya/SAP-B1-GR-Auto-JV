@@ -10,5 +10,6 @@ namespace GRAutoJV.Core
     {
         public static SAPbouiCOM.Application oApp;
         public static SAPbobsCOM.Company oCom;
+        public static Models.GlobalVars oGlobalVars;
     }
 }

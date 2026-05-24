@@ -12,6 +12,7 @@ namespace GRAutoJV.Core
         {
             SapApplication.Connect(args);
             SapCompany.Connect();
+            EventManager.RegisterEvents();
         }
     }
 }
